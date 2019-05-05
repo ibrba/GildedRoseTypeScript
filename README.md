@@ -20,8 +20,11 @@ npm install -g tsc
 npm test
 ```
 
+## Compiling the code :
+```
+npm run compile
+```
 ## Running the code :
 ```
-tsc index.ts
-node index.js
+npm run app
 ```
