@@ -20,7 +20,7 @@ export class Item {
     }
 
     decreaseQuality(step=1) {
-            this.quality = (this.quality - step >= MIN_QUALITY) ? this.quality - step : MIN_QUALITY;
+        this.quality = (this.quality - step >= MIN_QUALITY) ? this.quality - step : MIN_QUALITY;
     }
 
     updateSellIn(){
