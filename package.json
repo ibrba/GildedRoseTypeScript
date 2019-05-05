@@ -37,5 +37,8 @@
       "html",
       "text"
     ]
+  },
+  "dependencies": {
+    "ts": "^0.2.2"
   }
 }
